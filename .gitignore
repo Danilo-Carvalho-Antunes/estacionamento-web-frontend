@@ -1,0 +1,45 @@
+# General
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+.env
+.env.*
+.dist/
+build/
+dist/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+.tox/
+.pyre/
+.pytype/
+*.egg-info/
+
+# Node / Frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.eslintcache
+
+# IDE / Editor
+.idea/
+.vscode/
+*.iml
+
+# Docker
+docker-compose.override.yml
+
+# Reports
+coverage/
